@@ -1,0 +1,23 @@
+{
+  "name": "tributeCharlie",
+  "authors": [
+    "Ivli Mihaita <mihaitaivli@gmail.com>"
+  ],
+  "description": "A Charlie Chaplin tribute page",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "Ionicons": "ionicons#^2.0.1"
+  }
+}
