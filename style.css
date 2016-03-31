@@ -20,7 +20,8 @@ video {
 
 .well {
     margin-top: 2em;
-    background-color: rgba(100, 100, 100, 0.8);
+    background-color: rgba(100, 100, 100, 0.3);
+    border-style: none;
 }
 
 h1,
@@ -30,15 +31,14 @@ p {
 
 .footer p {
     font-family: sans-serif;
-    margin-top: 1em;
 }
 
 .footer {
-    position: absolute;
-    bottom: 0px;
-    height: 40px;
+    margin-top: 2em;
+    padding: 0.5em;
+    /*    height: 40px;*/
     width: 100%;
-    background-color: rgba(100, 100, 100, 0.8);
+    background-color: rgba(44, 44, 44, 0.8);
 }
 
 a,
@@ -46,4 +46,17 @@ a:hover,
 a:after {
     text-decoration: none;
     color: inherit;
+}
+
+.panel-default,
+.panel-heading {
+    background-color: rgba(100, 100, 100, 0.3) !important;
+    border-style: none;
+    color: white !important;
+}
+
+.table>tbody>tr>td,
+.table>thead>tr>th {
+    border-bottom: none;
+    border-top: none;
 }
